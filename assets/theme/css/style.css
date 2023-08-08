@@ -1079,7 +1079,7 @@ input:-webkit-autofill, input:-webkit-autofill:hover, input:-webkit-autofill:foc
   position: absolute;
   width: 70px;
   height: 70px;
-  top: 50%;
+  top: min(50vh,67vw);
   margin-top: -35px;
   line-height: 70px;
   border-radius: 50%;
@@ -1100,7 +1100,6 @@ input:-webkit-autofill, input:-webkit-autofill:hover, input:-webkit-autofill:foc
     .mbr-gallery .mbr-slider .carousel-control {
       bottom: 2.5rem;
       margin-top: 0;
-      top: auto;
       z-index: 17; } }
 
 .mbr-gallery .mbr-slider .carousel-inner > .active {
